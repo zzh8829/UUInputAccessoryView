@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UUInputAccessoryView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Add keyboard input to any view'
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Provide keyboard input to those views that do not accept input, such as button, 
                        DESC
 
   s.homepage         = 'https://github.com/zzh8829/UUInputAccessoryView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://github.com/zzh8829/UUInputAccessoryView/raw/master/demo1.gif', 'https://github.com/zzh8829/UUInputAccessoryView/raw/master/demo2.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zihao Zhang' => 'zzh8829@gmail.com' }
   s.source           = { :git => 'https://github.com/zzh8829/UUInputAccessoryView.git', :tag => s.version.to_s }
