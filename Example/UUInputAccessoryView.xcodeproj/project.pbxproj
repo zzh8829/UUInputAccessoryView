@@ -13,8 +13,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* UUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* UUAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* UUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* UUViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,6 +21,11 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		8234F434D4AFFE7C0D76CA07 /* Pods_UUInputAccessoryView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6901AAEE19B6C25AF03575C /* Pods_UUInputAccessoryView_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		E47C8C9C1D508E5800BA436A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C8C971D508E5800BA436A /* AppDelegate.m */; };
+		E47C8C9D1D508E5800BA436A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C8C991D508E5800BA436A /* TableViewController.m */; };
+		E47C8C9E1D508E5800BA436A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C8C9B1D508E5800BA436A /* ViewController.m */; };
+		E47C8CA31D508E6E00BA436A /* FORGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C8CA01D508E6E00BA436A /* FORGesture.m */; };
+		E47C8CA41D508E6E00BA436A /* FORGestureTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = E47C8CA21D508E6E00BA436A /* FORGestureTrack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,10 +52,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* UUInputAccessoryView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUInputAccessoryView-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* UUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* UUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* UUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UUViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* UUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UUViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* UUInputAccessoryView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UUInputAccessoryView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,6 +63,16 @@
 		9A3CA97D9C538FA1689A5A26 /* UUInputAccessoryView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UUInputAccessoryView.podspec; path = ../UUInputAccessoryView.podspec; sourceTree = "<group>"; };
 		9AFD35B441CD006297B9FF3A /* Pods-UUInputAccessoryView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUInputAccessoryView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UUInputAccessoryView_Example/Pods-UUInputAccessoryView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6901AAEE19B6C25AF03575C /* Pods_UUInputAccessoryView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UUInputAccessoryView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47C8C961D508E5800BA436A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E47C8C971D508E5800BA436A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E47C8C981D508E5800BA436A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E47C8C991D508E5800BA436A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E47C8C9A1D508E5800BA436A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E47C8C9B1D508E5800BA436A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E47C8C9F1D508E6E00BA436A /* FORGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FORGesture.h; sourceTree = "<group>"; };
+		E47C8CA01D508E6E00BA436A /* FORGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FORGesture.m; sourceTree = "<group>"; };
+		E47C8CA11D508E6E00BA436A /* FORGestureTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FORGestureTrack.h; sourceTree = "<group>"; };
+		E47C8CA21D508E6E00BA436A /* FORGestureTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FORGestureTrack.m; sourceTree = "<group>"; };
 		E9B1A05379EA933056910569 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,11 +139,17 @@
 		6003F593195388D20070C39A /* Example for UUInputAccessoryView */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* UUAppDelegate.h */,
-				6003F59D195388D20070C39A /* UUAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* UUViewController.h */,
-				6003F5A6195388D20070C39A /* UUViewController.m */,
+				E47C8C961D508E5800BA436A /* AppDelegate.h */,
+				E47C8C971D508E5800BA436A /* AppDelegate.m */,
+				E47C8C981D508E5800BA436A /* TableViewController.h */,
+				E47C8C991D508E5800BA436A /* TableViewController.m */,
+				E47C8C9A1D508E5800BA436A /* ViewController.h */,
+				E47C8C9B1D508E5800BA436A /* ViewController.m */,
+				E47C8C9F1D508E6E00BA436A /* FORGesture.h */,
+				E47C8CA01D508E6E00BA436A /* FORGesture.m */,
+				E47C8CA11D508E6E00BA436A /* FORGestureTrack.h */,
+				E47C8CA21D508E6E00BA436A /* FORGestureTrack.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -390,9 +405,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* UUAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* UUViewController.m in Sources */,
+				E47C8CA41D508E6E00BA436A /* FORGestureTrack.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E47C8C9C1D508E5800BA436A /* AppDelegate.m in Sources */,
+				E47C8C9D1D508E5800BA436A /* TableViewController.m in Sources */,
+				E47C8C9E1D508E5800BA436A /* ViewController.m in Sources */,
+				E47C8CA31D508E6E00BA436A /* FORGesture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

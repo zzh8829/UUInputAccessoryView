@@ -1,18 +1,22 @@
 //
-//  UUAppDelegate.m
+//  AppDelegate.m
 //  UUInputAccessoryView
 //
 //  Created by Zihao Zhang on 08/02/2016.
 //  Copyright (c) 2016 Zihao Zhang. All rights reserved.
 //
 
-#import "UUAppDelegate.h"
+#import "AppDelegate.h"
+#import "FORGestureTrack.h"
 
-@implementation UUAppDelegate
+@implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    FORGestureTrack* track = [[FORGestureTrack alloc] initWithFrame:self.window.bounds];
+    track.dotWidth = 40;
+    [self.window addSubview:track];
+
     return YES;
 }
 

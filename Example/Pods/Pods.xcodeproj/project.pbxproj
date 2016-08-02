@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5E1C14DEEC956F06C1F280C64581D8 /* UUInputAccessoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C7DD67C13E2983EF1E5A735E918CB7 /* UUInputAccessoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		238B9C4BAB41EFF791F5F5D3BFD2741F /* Pods-UUInputAccessoryView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F85B14402EF42254F2681E7701C78342 /* Pods-UUInputAccessoryView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E0DD71FA0CBD8B18172A4EAD692BE81 /* UUInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB9F1A06F10A73A865DFDAE7DE413C /* UUInputAccessoryView-dummy.m */; };
 		72C0484CE2FFE8A34E194DA504E32419 /* Pods-UUInputAccessoryView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2C047D6DE86281A7CFB738826D0279 /* Pods-UUInputAccessoryView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7853DB40F12F5E95B0438979873841EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		879BFC8DCD2C1AF25BF5F1B8B093C155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		897A0125E43C23016CF9F86F60F695A5 /* UUInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9724D3858C33FA202F8243B60A968829 /* UUInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E7E5E754004C74D8C5E130E743E5A94 /* Pods-UUInputAccessoryView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E7480FC9E70F26CA64EB991E1374A9 /* Pods-UUInputAccessoryView_Tests-dummy.m */; };
 		960D57893579400F215B53624940FC83 /* Pods-UUInputAccessoryView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECE6BC60655512951F986448D4B8F86 /* Pods-UUInputAccessoryView_Example-dummy.m */; };
-		AAC439479415B48A44F12C707EA29986 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2593B30AF922C076D22A0D6D4A8452BB /* ReplaceMe.m */; };
 		C0D9C6F970A59ABA757EB5E5B0F21032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		EAEE46F106067E16BB6E4FF28EC7AF53 /* UUInputAccessoryView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB9F1A06F10A73A865DFDAE7DE413C /* UUInputAccessoryView-dummy.m */; };
-		F9B68B49BDAD27D8F350CEFBFB298004 /* UUInputAccessoryView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C7DD67C13E2983EF1E5A735E918CB7 /* UUInputAccessoryView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFFEB174B2DE36F4DB44038CB006969E /* UUInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1689134ADE1AC3D6964EBC49AC7E909E /* UUInputAccessoryView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,7 @@
 		00FB9F1A06F10A73A865DFDAE7DE413C /* UUInputAccessoryView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UUInputAccessoryView-dummy.m"; sourceTree = "<group>"; };
 		013015EB08A170E2830926273DB4E391 /* Pods_UUInputAccessoryView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UUInputAccessoryView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CC9B5522D41FB6286C55A8BEE645D2 /* UUInputAccessoryView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UUInputAccessoryView.modulemap; sourceTree = "<group>"; };
-		2593B30AF922C076D22A0D6D4A8452BB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		1689134ADE1AC3D6964EBC49AC7E909E /* UUInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UUInputAccessoryView.m; sourceTree = "<group>"; };
 		26448DA5AA7EA27F8591962F443DCEE2 /* Pods-UUInputAccessoryView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UUInputAccessoryView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C495C8DA20B5D234D32B61A3907BD34 /* Pods-UUInputAccessoryView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUInputAccessoryView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		36708C4C23033440C73101FE2864C68E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		769163F5F49F1F86F50437EFF8A50CCF /* Pods-UUInputAccessoryView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UUInputAccessoryView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96C7DD67C13E2983EF1E5A735E918CB7 /* UUInputAccessoryView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UUInputAccessoryView-umbrella.h"; sourceTree = "<group>"; };
+		9724D3858C33FA202F8243B60A968829 /* UUInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UUInputAccessoryView.h; sourceTree = "<group>"; };
 		9C2C047D6DE86281A7CFB738826D0279 /* Pods-UUInputAccessoryView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UUInputAccessoryView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AEE59C0EDD5504D970B95416A5DECA02 /* Pods-UUInputAccessoryView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UUInputAccessoryView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B6A8FDCF31D40BE854A3B31F907A56C5 /* UUInputAccessoryView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUInputAccessoryView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,14 +94,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FF4B33271DDCADDE1528FD9D504CE91 /* UUInputAccessoryView */ = {
-			isa = PBXGroup;
-			children = (
-				25246B49564FD39C9D5850C8A356F207 /* Classes */,
-			);
-			path = UUInputAccessoryView;
-			sourceTree = "<group>";
-		};
 		1857F9BA2022D657CD4933E979072B70 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +108,11 @@
 			path = "Example/Pods/Target Support Files/UUInputAccessoryView";
 			sourceTree = "<group>";
 		};
-		25246B49564FD39C9D5850C8A356F207 /* Classes */ = {
+		1D69EF7B73AC7A21CFFB4D90D195AF91 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2593B30AF922C076D22A0D6D4A8452BB /* ReplaceMe.m */,
+				9724D3858C33FA202F8243B60A968829 /* UUInputAccessoryView.h */,
+				1689134ADE1AC3D6964EBC49AC7E909E /* UUInputAccessoryView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -170,10 +165,18 @@
 			isa = PBXGroup;
 			children = (
 				1857F9BA2022D657CD4933E979072B70 /* Support Files */,
-				0FF4B33271DDCADDE1528FD9D504CE91 /* UUInputAccessoryView */,
+				4916CF2740C0F8408628D589AA0F1261 /* UUInputAccessoryView */,
 			);
 			name = UUInputAccessoryView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		4916CF2740C0F8408628D589AA0F1261 /* UUInputAccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				1D69EF7B73AC7A21CFFB4D90D195AF91 /* Classes */,
+			);
+			path = UUInputAccessoryView;
 			sourceTree = "<group>";
 		};
 		742E201EC700AE188E57D81D5F820A77 /* Development Pods */ = {
@@ -233,11 +236,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A53F70A1001CAE102B4622CA60452A1 /* Headers */ = {
+		0EFF59943DCC4D5480E1BE06E4816E84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B68B49BDAD27D8F350CEFBFB298004 /* UUInputAccessoryView-umbrella.h in Headers */,
+				0E5E1C14DEEC956F06C1F280C64581D8 /* UUInputAccessoryView-umbrella.h in Headers */,
+				897A0125E43C23016CF9F86F60F695A5 /* UUInputAccessoryView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,9 +295,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B06AD3CF298EB07BC7F9D4E1CEDC5AE /* Build configuration list for PBXNativeTarget "UUInputAccessoryView" */;
 			buildPhases = (
-				8F286D4CA642E1639B6E82383D60F698 /* Sources */,
+				9E7E0879ABA96575130E7A58C89BD4DA /* Sources */,
 				D2F3D8D768F3EE17E02FAEBA573EED44 /* Frameworks */,
-				1A53F70A1001CAE102B4622CA60452A1 /* Headers */,
+				0EFF59943DCC4D5480E1BE06E4816E84 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -349,12 +353,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F286D4CA642E1639B6E82383D60F698 /* Sources */ = {
+		9E7E0879ABA96575130E7A58C89BD4DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC439479415B48A44F12C707EA29986 /* ReplaceMe.m in Sources */,
-				EAEE46F106067E16BB6E4FF28EC7AF53 /* UUInputAccessoryView-dummy.m in Sources */,
+				5E0DD71FA0CBD8B18172A4EAD692BE81 /* UUInputAccessoryView-dummy.m in Sources */,
+				EFFEB174B2DE36F4DB44038CB006969E /* UUInputAccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

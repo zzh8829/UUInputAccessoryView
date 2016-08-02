@@ -1,5 +1,5 @@
 //
-//  UUAppDelegate.h
+//  AppDelegate.h
 //  UUInputAccessoryView
 //
 //  Created by Zihao Zhang on 08/02/2016.
@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-@interface UUAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
