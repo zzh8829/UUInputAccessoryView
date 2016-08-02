@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UUInputAccessoryView_Example' do
+  pod 'UUInputAccessoryView', :path => '../'
+
+  target 'UUInputAccessoryView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
