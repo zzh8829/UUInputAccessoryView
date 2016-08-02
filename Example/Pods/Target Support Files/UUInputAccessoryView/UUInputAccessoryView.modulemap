@@ -1,0 +1,6 @@
+framework module UUInputAccessoryView {
+  umbrella header "UUInputAccessoryView-umbrella.h"
+
+  export *
+  module * { export * }
+}

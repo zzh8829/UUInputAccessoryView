@@ -1,0 +1,22 @@
+{
+  "name": "UUInputAccessoryView",
+  "version": "0.1.0",
+  "summary": "A short description of UUInputAccessoryView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/UUInputAccessoryView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Zihao Zhang": "zzh8829@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/UUInputAccessoryView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UUInputAccessoryView/Classes/**/*"
+}

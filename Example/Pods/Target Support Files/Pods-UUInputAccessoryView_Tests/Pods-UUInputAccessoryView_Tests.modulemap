@@ -1,0 +1,6 @@
+framework module Pods_UUInputAccessoryView_Tests {
+  umbrella header "Pods-UUInputAccessoryView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
